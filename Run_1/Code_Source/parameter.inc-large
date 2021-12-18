@@ -1,0 +1,16 @@
+       PARAMETER(NDEmax=20000,NELmax=10000)
+       PARAMETER(NDIM=NDEmax*ndf)
+       PARAMETER(NZMAX=20 000 000,
+     .   NZLMAX=10 000 000,NZUMAX=20 000 000)
+       PARAMETER(MatMax=10, MaxProp=25,MaxCon=100)
+       PARAMETER(MaxEig=100)
+       PARAMETER(NvfP=100)
+
+C MatMax - maximum number of materials
+C MaxProp - maximum number of material properties - E,ni,ro ... 
+C MaxCon - maximum number of nodes  connected to a node
+C NvfP   - maximum number of volume forces
+
+
+
+

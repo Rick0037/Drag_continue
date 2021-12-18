@@ -1,0 +1,23 @@
+*Control data
+0.0          T0
+0.1          dt
+750         Tmax
+20           NDecompose each N time steps
+.1           PlotTime   each N time steps 
+100          NMAX  Maximum number of iterations in the internal loop
+1.0E-6       RRHSMAX Maximum residuum for Navier-Stokes 
+1.0e-5       REVMax Maximum residuum for the eigenvalue vector
+0            ieig     1 - eigen  computations 0 - steady or unsteady computations       
+0            isteady  1 - steady computations 0 - unsteady computations
+3            NEig    Number of eigenvalues to be calculated
+1            shift= (nHz * 2 pi ) ^ 2 shift value in Hz 
+.false. .true.       .false.  .true.       kickme
+0            Nvf Number of volume forces
+.TRUE.	CAYLEY
+-0.1	Alfa1
+0.5	Alfa2
+0.0	Alfa3
+10	NEig
+.FALSE.	Verbose
+NOT IMPLEMENTED NOW ! .FALSE.	symmetry BC on y=0
+

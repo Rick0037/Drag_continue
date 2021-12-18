@@ -1,0 +1,46 @@
+1           Algorythm
+1.0D-6     convergence tolerance  
+500      Nlim
+1.0       estimated norm for P&Q
+1.0        estimated norm for V&W
+1            Precon
+50         fill-in 
+0.0        tolerance
+1.0         SSOR parameter OMEGA 
+
+
+*********************************************************************************
+
+Choices of algorithm         : 1 = CPL
+         estimated norm for P&Q
+         estimated norm for V&W
+                               2 = CPX
+                               3 = QBG
+                               4 = QMR
+         estimated matrix norm 
+                               5 = QMX
+                               6 = TFX
+
+			       1 = Left ILUT
+                               2 = Right ILUT
+                               3 = Two-sided ILUT
+        fill-in 
+        tolerance
+                               4 = Left SSOR
+                               5 = Right SSOR
+                               6 = Two-sided SSOR
+        SSOR parameter OMEGA 
+
+
+
+
+139 000 NDE
+
+Elements in A:    9 252 038
+Elements in L:   14 016 975
+Elements in U:   20 429 079     
+
+12529     25059     37589     50119     62649     75179     87708    100238    112768    125298    137828    150358    162887    175417    187947    200477    213007    225537    238066    250596    263126    275656    288186    300716    313246
+
+
+

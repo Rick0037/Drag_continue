@@ -1,0 +1,7 @@
+#/bin/bash
+export TEC_360_2008=/usr/local/tecplot_360
+export PATH=${PATH}:${TEC_360_2008}/bin
+#tec360 
+tec360 -mesa
+
+
